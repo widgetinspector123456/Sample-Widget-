@@ -1,4 +1,104 @@
-<div id="app"></div>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<base href="./" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="//ui.beta.vidizmo.com/static/compiled/widget/style.css" />
+	<script type="text/javascript">
+		/** Load widget context in window object */
+      var widgetContext = {};
+      widgetContext.tenantUrl = "//angrybirds.beta.vidizmo.com/";
+      widgetContext.tenantId = 7519;
+      window["widgetContext"] = widgetContext;
+      window["getChunkURL"] = () => {
+        return "//angrybirds.beta.vidizmo.com/static/compiled/widget/";
+      };
+	</script>
+</head>
+
+<body>
+	<div class="vidizmo-container">
+		<div class="md-skin skin">
+			<vdz-mashup-mostpopular-carousel heading="Most Viewed Mashup Slider" record-count="18">
+			</vdz-mashup-mostpopular-carousel>
+			<!-- <vdz-mashup-mostrecent-carousel
+          heading="Most Viewed Mashup Slider"
+          record-count="18"
+          item-xs="2"
+          item-sm="3"
+          item-md="5"
+          item-lg="8"
+        ></vdz-mashup-mostrecent-carousel>
+        <vdz-mashup-mostviewed-carousel
+          heading="Most Viewed Mashup Slider"
+          record-count="18"
+          item-xs="2"
+          item-sm="3"
+          item-md="5"
+          item-lg="8"
+        ></vdz-mashup-mostviewed-carousel>
+
+        <vdz-mashup-mostpopular-collage></vdz-mashup-mostpopular-collage>
+        <vdz-mashup-mostrecent-collage></vdz-mashup-mostrecent-collage>
+        <vdz-mashup-mostviewed-collage></vdz-mashup-mostviewed-collage>
+
+        <vdz-mashup-mostpopular-gallery
+          record-count="18"
+          sort-by="Title"
+          sort-order="ASC"
+          page-index="1"
+        ></vdz-mashup-mostpopular-gallery>
+        <vdz-mashup-mostrecent-gallery
+          record-count="18"
+          sort-by="Title"
+          sort-order="ASC"
+          page-index="2"
+        ></vdz-mashup-mostrecent-gallery>
+        <vdz-mashup-mostviewed-gallery
+          record-count="18"
+          sort-by="Title"
+          sort-order="ASC"
+          page-index="3"
+        ></vdz-mashup-mostviewed-gallery>
+
+        <vdz-mashup-mostpopular-detailview
+          record-count="18"
+          sort-by="Title"
+          sort-order="ASC"
+          page-index="1"
+        ></vdz-mashup-mostpopular-detailview>
+        <vdz-mashup-mostrecent-detailview
+          heading="Most Viewed Mashup Slider"
+          record-count="18"
+          sort-by="Title"
+          sort-order="ASC"
+          page-index="2"
+          item-xs="2"
+          item-sm="3"
+          item-md="5"
+          item-lg="8"
+        ></vdz-mashup-mostrecent-detailview>
+        <vdz-mashup-mostviewed-detailview
+          heading="Most Viewed Mashup Slider"
+          record-count="18"
+          sort-by="Title"
+          sort-order="DESC"
+          page-index="3"
+          item-xs="2"
+          item-sm="3"
+          item-md="5"
+          item-lg="8"
+        ></vdz-mashup-mostviewed-detailview> -->
+		</div>
+	</div>
+	<script src="//ui.beta.vidizmo.com/static/compiled/widget/runtime.js" defer></script>
+	<script src="//ui.beta.vidizmo.com/static/compiled/widget/polyfills-es5.js" nomodule defer></script>
+	<script src="//ui.beta.vidizmo.com/static/compiled/widget/polyfills.js" defer></script>
+	<script src="//ui.beta.vidizmo.com/static/compiled/widget/styles.js" defer></script>
+	<script src="//ui.beta.vidizmo.com/static/compiled/widget/vendor.js" defer></script>
+	<script src="//ui.beta.vidizmo.com/static/compiled/widget/main.js" defer></script>
+</body>
 
 </html>
