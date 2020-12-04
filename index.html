@@ -23,16 +23,15 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="stylesheet" href="//angrybirds.beta.vidizmo.com/static/compiled/widget/style.css" />
+	<link rel="stylesheet" href="//angrybirds.beta.vidizmo.com/static/compiled/widget/widget.css" />
 	<script type="text/javascript">
 		/** Load widget context in window object */
       var widgetContext = {};
       widgetContext.tenantUrl = "//angrybirds.beta.vidizmo.com/";
-      widgetContext.tenantId = 7519;
+      widgetContext.apiKey = "EMXLDCVMPFWD2R6OR5HEU73AUJ5VWNQE5UN57HJXZIXYK4RAMLR6XABIOICUT4K3EG344LOFH4XRWHKIJYT3OUBH33YSAURLFVKMC4UQ64A2NMXF4RKQVJEHU5GDLWZAWIR4F7VN5NWUS7CHZU6NYSQKNFX5CW7VGSUWA46P3KSTVITFUDZDIVHUOMESJ7COLT3RCSU47P6ZI";
+      widgetContext.hostName = "sample-widget.stackblitz.io";
       window["widgetContext"] = widgetContext;
-      window["getChunkURL"] = () => {
-        return "//angrybirds.beta.vidizmo.com/static/compiled/widget/";
-      };
+      window["getChunkURL"] = function(){ return "//angrybirds.beta.vidizmo.com/static/compiled/widget/" };
 	</script>
 	<style>
 		* {
@@ -5981,13 +5980,7 @@
 					src='https://demo.mekshq.com/roogan/wp-content/plugins/meks-easy-social-share/assets/js/main.js?ver=1.2.1'
 					id='meks_ess-main-js'></script>
 
-				<script src="//angrybirds.beta.vidizmo.com/static/compiled/widget/runtime.js" defer></script>
-				<script src="//angrybirds.beta.vidizmo.com/static/compiled/widget/polyfills-es5.js" nomodule defer>
-				</script>
-				<script src="//angrybirds.beta.vidizmo.com/static/compiled/widget/polyfills.js" defer></script>
-				<script src="//angrybirds.beta.vidizmo.com/static/compiled/widget/styles.js" defer></script>
-				<script src="//angrybirds.beta.vidizmo.com/static/compiled/widget/vendor.js" defer></script>
-				<script src="//angrybirds.beta.vidizmo.com/static/compiled/widget/main.js" defer></script>
+				<script src="//angrybirds.beta.vidizmo.com/static/compiled/widget/widget.js" defer></script>
 			</div>
 		</div>
 </body>
